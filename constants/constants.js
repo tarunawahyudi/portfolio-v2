@@ -1,11 +1,11 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = process.env.NEXT_PUBLIC_NAME;
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = process.env.NEXT_PUBLIC_DESIGNATION;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: process.env.NEXT_PUBLIC_RESIDENCE,
+  City: process.env.NEXT_PUBLIC_CITY,
+  Age: process.env.NEXT_PUBLIC_AGE,
 };
 
 export const SKILLS = [

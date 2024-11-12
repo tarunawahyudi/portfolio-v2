@@ -17,13 +17,13 @@ body {
       @apply transition-all delay-200 !duration-1000;
     }
     .card_stylings {
-      @apply bg-EveningBlack/95 rounded-xl hover:bg-gradient-to-br hover:from-Green/10 hover:to-indigo-600/5;
+      @apply bg-EveningBlack/95 rounded-xl hover:bg-gradient-to-br hover:from-Aqua/10 hover:to-indigo-600/5;
     }
     .button {
-      @apply bg-Green hover:bg-Green/60 transition rounded-xl text-MidNightBlack text-base font-medium  px-8 py-2;
+      @apply bg-Aqua hover:bg-Aqua/60 transition rounded-xl text-MidNightBlack text-base font-medium  px-8 py-2;
     }
     .input_stylings {
-      @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Green block w-full pl-10 p-2.5;
+      @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Aqua block w-full pl-10 p-2.5;
     }
 
     @font-face {
@@ -64,22 +64,22 @@ body {
             width: 5px;
             height: 4px;
         }
-        
+
         /* Track */
         ::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 5px grey; 
+            box-shadow: inset 0 0 5px grey;
             border-radius: 10px;
         }
-        
+
         /* Handle */
         ::-webkit-scrollbar-thumb {
-            background: #1fdf64; 
+            background:  #00BCD4;
             border-radius: 8px;
         }
-        
+
         /* Handle on hover */
         ::-webkit-scrollbar-thumb:hover {
-            background: #1fdf64; 
+            background: #00BCD4;
         }
     }
 
@@ -89,7 +89,7 @@ body {
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
       }
-      
+
       @keyframes scale-icon {
         0% {
           transform: scale(1);
@@ -124,11 +124,11 @@ body {
 
 
 .userIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #00BCD4; /* Change the icon color when the input is focused */
 }
 .mailIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #00BCD4; /* Change the icon color when the input is focused */
 }
 .textIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #00BCD4; /* Change the icon color when the input is focused */
 }
