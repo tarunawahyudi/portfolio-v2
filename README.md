@@ -30,22 +30,13 @@ npm run dev
 
 This will start the development server at http://localhost:3000.
 
-### Create your ```.env.local``` file
-Copy the contents of the ```.env.example``` file (or create your own .env file) and modify the values as per your details.
+### Update Your Data
+All the necessary information for the project is stored in the `data.js` file. Update the values in this file to reflect your personal and professional details.
 
-```dotenv
-NEXT_PUBLIC_NAME=YOUR_NAME
-NEXT_PUBLIC_DESIGNATION=YOUR_DESIGNATION
-NEXT_PUBLIC_RESIDENCE=YOUR_RESIDENCE
-NEXT_PUBLIC_CITY=YOUR_CITY
-NEXT_PUBLIC_AGE=YOUR_AGE
-NEXT_PUBLIC_EMAIL=YOUR_EMAIL
-NEXT_PUBLIC_PHONE=YOUR_PHONE
-NEXT_PUBLIC_GITHUB_USERNAME=YOUR_GITHUB_USERNAME
-NEXT_PUBLIC_GITHUB_URL=YOUR_GITHUB_URL
-NEXT_PUBLIC_LINKEDIN_USERNAME=YOUR_LINKEDIN_USERNAME
-NEXT_PUBLIC_LINKEDIN_URL=YOUR_LINKEDIN_URL
-```
+#### Steps to Update
+1. Open the `data.js` file located in the project directory.
+2. Modify the provided sections, such as personal information, social media links, tech stack, and skills, with your details.
+3. Save the changes, and your updates will be reflected in the application.
 
 ### 🔥 Prerequisites
 Make sure you have Node.js and npm installed. You can download Node.js from here.
